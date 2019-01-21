@@ -1,0 +1,747 @@
+  ORGANISM  Felis nigripes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Felis.
+REFERENCE   1  (bases 1 to 16723)
+  AUTHORS   Li,G., Davis,B.W., Eizirik,E. and Murphy,W.J.
+  TITLE     Pervasive signals of ancient hybridization in the genomes of living
+            cats (Felidae)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16723)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-NOV-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 16723)
+  AUTHORS   Li,G., Davis,B.W., Eizirik,E. and Murphy,W.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-NOV-2014) Department of Veterinary Integrative
+            Biosciences, TAMU, College Station, TX 77840, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to KP202277.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SOAPdenovo v. 2
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..16723
+                     /organism="Felis nigripes"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="FNI"
+                     /db_xref="taxon:61379"
+     misc_feature    join(16212..16723,1..760)
+                     /note="control region"
+     gene            761..830
+                     /locus_tag="ASQ79_gt01"
+                     /db_xref="GeneID:26129784"
+     tRNA            761..830
+                     /locus_tag="ASQ79_gt01"
+                     /product="tRNA-Phe"
+                     /db_xref="GeneID:26129784"
+     gene            831..1789
+                     /locus_tag="ASQ79_gr02"
+                     /db_xref="GeneID:26129785"
+     rRNA            831..1789
+                     /locus_tag="ASQ79_gr02"
+                     /product="12S ribosomal RNA"
+                     /db_xref="GeneID:26129785"
+     gene            1790..1857
+                     /locus_tag="ASQ79_gt02"
+                     /db_xref="GeneID:26129786"
+     tRNA            1790..1857
+                     /locus_tag="ASQ79_gt02"
+                     /product="tRNA-Val"
+                     /db_xref="GeneID:26129786"
+     gene            1858..3433
+                     /locus_tag="ASQ79_gr01"
+                     /db_xref="GeneID:26129787"
+     rRNA            1858..3433
+                     /locus_tag="ASQ79_gr01"
+                     /product="16S ribosomal RNA"
+                     /db_xref="GeneID:26129787"
+     gene            3434..3508
+                     /locus_tag="ASQ79_gt03"
+                     /db_xref="GeneID:26129788"
+     tRNA            3434..3508
+                     /locus_tag="ASQ79_gt03"
+                     /product="tRNA-Leu"
+                     /db_xref="GeneID:26129788"
+     gene            3511..4466
+                     /gene="ND1"
+                     /locus_tag="ASQ79_gp13"
+                     /db_xref="GeneID:26129789"
+     CDS             3511..4466
+                     /gene="ND1"
+                     /locus_tag="ASQ79_gp13"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:4465..4466,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 1"
+                     /protein_id="YP_009178398.1"
+                     /db_xref="GI:948298912"
+                     /db_xref="GeneID:26129789"
+                     /translation="MFMVNVLSLIIPILLAVAFLTLVERKVLGYMQLRKGPNIVGPYG
+                     LLQPIADAVKLFTKEPLRPLTSSMLMFIMAPILALTLALTMWIPLPMPYPLINMNLGV
+                     LFMLAMSSLAVYSILWSGWASNSKYALIGALRAVAQTISYEVTLAIILLSVLLMNGSF
+                     TLAMLIITQEYMWLIIPAWPLAMMWFISTLAETNRAPFDLTEGESELVSGFNVEYAAG
+                     PFALFFLAEYANIIMMNILTTILFFGAFHSPYMPELYTINFTVKTLLLTITFLWIRAS
+                     YPRFRYDQLMHLLWKNFLPLTLALCMWHVSLPIITASIPPQT"
+     gene            4467..4535
+                     /locus_tag="ASQ79_gt04"
+                     /db_xref="GeneID:26129771"
+     tRNA            4467..4535
+                     /locus_tag="ASQ79_gt04"
+                     /product="tRNA-Ile"
+                     /db_xref="GeneID:26129771"
+     gene            complement(4533..4606)
+                     /locus_tag="ASQ79_gt05"
+                     /db_xref="GeneID:26129790"
+     tRNA            complement(4533..4606)
+                     /locus_tag="ASQ79_gt05"
+                     /product="tRNA-Gln"
+                     /db_xref="GeneID:26129790"
+     gene            4608..4676
+                     /locus_tag="ASQ79_gt06"
+                     /db_xref="GeneID:26129791"
+     tRNA            4608..4676
+                     /locus_tag="ASQ79_gt06"
+                     /product="tRNA-Met"
+                     /db_xref="GeneID:26129791"
+     gene            4677..5718
+                     /gene="ND2"
+                     /locus_tag="ASQ79_gp12"
+                     /db_xref="GeneID:26129792"
+     CDS             4677..5718
+                     /gene="ND2"
+                     /locus_tag="ASQ79_gp12"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:5718,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 2"
+                     /protein_id="YP_009178399.1"
+                     /db_xref="GI:948298913"
+                     /db_xref="GeneID:26129792"
+                     /translation="MKPPIFIIIMLTVMSGTMIVVTTSHWLMVWIGFEMNLLAIIPIL
+                     MKKYNPRAMEAATKYFLTQATASMILMMGIIINLLHSGQWTMSKDLNPMASIMMTAAL
+                     AMKLGLAPFHFWVPEVTQGVSMSSGLILLTWQKIAPLSILYQMSSTINPNLILTMSIL
+                     SVMIGGWGGLNQTQLRKIMAYSSIAHMGWMTAIMMYSPTMMILNLIIYIIMTLTTFML
+                     FMHNSTTTTSSLSQTWNKTPLITSLILVLMMSLGGLPPLSGFIPKWMIIQELTKNEMI
+                     MMPTLLAMTALLNLYFYMRLTYTTALTMFPSNNSMKMKWRFEYTKKMTFLPPLIVMST
+                     MLLPLTPMLSILD"
+     gene            5719..5786
+                     /locus_tag="ASQ79_gt07"
+                     /db_xref="GeneID:26129772"
+     tRNA            5719..5786
+                     /locus_tag="ASQ79_gt07"
+                     /product="tRNA-Trp"
+                     /db_xref="GeneID:26129772"
+     gene            complement(5804..5872)
+                     /locus_tag="ASQ79_gt08"
+                     /db_xref="GeneID:26129793"
+     tRNA            complement(5804..5872)
+                     /locus_tag="ASQ79_gt08"
+                     /product="tRNA-Ala"
+                     /db_xref="GeneID:26129793"
+     gene            complement(5874..5946)
+                     /locus_tag="ASQ79_gt09"
+                     /db_xref="GeneID:26129794"
+     tRNA            complement(5874..5946)
+                     /locus_tag="ASQ79_gt09"
+                     /product="tRNA-Asn"
+                     /db_xref="GeneID:26129794"
+     rep_origin      5947..5978
+                     /note="origin of L-strand replication; OLR"
+     gene            complement(5979..6044)
+                     /locus_tag="ASQ79_gt10"
+                     /db_xref="GeneID:26129795"
+     tRNA            complement(5979..6044)
+                     /locus_tag="ASQ79_gt10"
+                     /product="tRNA-Cys"
+                     /db_xref="GeneID:26129795"
+     gene            complement(6045..6111)
+                     /locus_tag="ASQ79_gt11"
+                     /db_xref="GeneID:26129796"
+     tRNA            complement(6045..6111)
+                     /locus_tag="ASQ79_gt11"
+                     /product="tRNA-Tyr"
+                     /db_xref="GeneID:26129796"
+     gene            6113..7657
+                     /gene="COX1"
+                     /locus_tag="ASQ79_gp11"
+                     /db_xref="GeneID:26129797"
+     CDS             6113..7657
+                     /gene="COX1"
+                     /locus_tag="ASQ79_gp11"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="YP_009178400.1"
+                     /db_xref="GI:948298914"
+                     /db_xref="GeneID:26129797"
+                     /translation="MFMNRWLFSTNHKDIGTLYLLFGAWAGMVGTALSLLIRAELGQP
+                     GTLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSF
+                     WLLPPSFLLLLASSMVEAGAGTGWTVYPPLAGNLAHAGASVDLTIFSLHLAGVSSILG
+                     AINFITTIINMKPPAMSQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTT
+                     FFDPAGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIVTYYSGKKEPFGYMGMVWA
+                     MMSIGFLGFIVWAHHMFTVGMDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGNIKW
+                     SPAMLWALGFIFLFTVGGLTGIVLANSSLDIVLHDTYYVVAHFHYVLSMGAVFAIMGG
+                     FVHWFPLFSGYTLDNTWAKIHFTIMFVGVNMTFFPQHFLGLSGMPRRYSDYPDAYTTW
+                     NTISSMGSFISLTAVMLMVFMVWEAFASKREVAMVELTTTNLEWLHGCPPPYHTFEEP
+                     TYVLLK"
+     gene            complement(7656..7725)
+                     /locus_tag="ASQ79_gt12"
+                     /db_xref="GeneID:26129773"
+     tRNA            complement(7656..7725)
+                     /locus_tag="ASQ79_gt12"
+                     /product="tRNA-Ser"
+                     /db_xref="GeneID:26129773"
+     gene            7730..7798
+                     /locus_tag="ASQ79_gt13"
+                     /db_xref="GeneID:26129798"
+     tRNA            7730..7798
+                     /locus_tag="ASQ79_gt13"
+                     /product="tRNA-Asp"
+                     /db_xref="GeneID:26129798"
+     gene            7799..8482
+                     /gene="COX2"
+                     /locus_tag="ASQ79_gp10"
+                     /db_xref="GeneID:26129799"
+     CDS             7799..8482
+                     /gene="COX2"
+                     /locus_tag="ASQ79_gp10"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit II"
+                     /protein_id="YP_009178401.1"
+                     /db_xref="GI:948298915"
+                     /db_xref="GeneID:26129799"
+                     /translation="MAYPFQLGFQDATSPIMEELLHFHDHTLMIVFLISSLVLYIISL
+                     MLTTKLTHTSTMDAQEVETIWTILPAIILILIALPSLRILYMMDEINNPSLTVKTMGH
+                     QWYWSYEYTDYEDLNFDSYMIPTQELKPGELRLLEVDNRVVLPMEMTIRMLISSEDVL
+                     HSWAVPSLGLKTDAIPGRLNQTTLMGTRPGLYYGQCSEICGSNHSFMPIVLELVPLTY
+                     FEKWSVSML"
+     gene            8486..8553
+                     /locus_tag="ASQ79_gt14"
+                     /db_xref="GeneID:26129774"
+     tRNA            8486..8553
+                     /locus_tag="ASQ79_gt14"
+                     /product="tRNA-Lys"
+                     /db_xref="GeneID:26129774"
+     gene            8555..8758
+                     /gene="ATP8"
+                     /locus_tag="ASQ79_gp09"
+                     /db_xref="GeneID:26129800"
+     CDS             8555..8758
+                     /gene="ATP8"
+                     /locus_tag="ASQ79_gp09"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="ATP synthase F0 subunit 8"
+                     /protein_id="YP_009178402.1"
+                     /db_xref="GI:948298916"
+                     /db_xref="GeneID:26129800"
+                     /translation="MPQLDTSTWFITIMSMIMTLFIVFQLKISKYLYPSSPEPKSMTA
+                     LKQLNPWEKKWTKIYSPLSLPQQ"
+     gene            8716..9396
+                     /gene="ATP6"
+                     /locus_tag="ASQ79_gp08"
+                     /db_xref="GeneID:26129775"
+     CDS             8716..9396
+                     /gene="ATP6"
+                     /locus_tag="ASQ79_gp08"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="ATP synthase F0 subunit 6"
+                     /protein_id="YP_009178403.1"
+                     /db_xref="GI:948298917"
+                     /db_xref="GeneID:26129775"
+                     /translation="MNENLFASFTTPTMMGLPIVILIIMFPSILFPSPSRLINNRLIS
+                     LQQWLVQLTSKQMLTIHNHKGQTWALMLMSLILFIGSTNLLGLLPHSFTPTTQLSMNL
+                     GMAIPLWAGTVITGFRHKTKASLAHFLPQGTPVPLIPMLVIIETISLFIQPMALAVRL
+                     TANITAGHLLMHLIGGAALALMNISTSIALITFIILILLTVLEFAVALIQAYVFTLLV
+                     SLYLHDNT"
+     gene            9396..10179
+                     /gene="COX3"
+                     /locus_tag="ASQ79_gp07"
+                     /db_xref="GeneID:26129776"
+     CDS             9396..10179
+                     /gene="COX3"
+                     /locus_tag="ASQ79_gp07"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:10179,aa:TERM)
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit III"
+                     /protein_id="YP_009178404.1"
+                     /db_xref="GI:948298918"
+                     /db_xref="GeneID:26129776"
+                     /translation="MTHQTHAYHMVNPSPWPLTGALSALLMTSGLAMWFHYNSTLLLT
+                     LGMTTNLLTMYQWWRDIIRESTFQGHHTPIVQKGLRYGMILFIISEVFFFAGFFWAFY
+                     HSSLAPTPELGGCWPPTGIIPLNPLEVPLLNTSVLLASGVSITWAHHSLMEGNRKHML
+                     QALFITISLGVYFTLLQASEYYETSFTISDGVYGSTFFMATGFHGLHVIIGSTFLIVC
+                     FLRQLKYHFTSNHHFGFEAAAWYWHFVDVVWLFLYVSIYWWGS"
+     gene            10180..10248
+                     /locus_tag="ASQ79_gt15"
+                     /db_xref="GeneID:26129777"
+     tRNA            10180..10248
+                     /locus_tag="ASQ79_gt15"
+                     /product="tRNA-Gly"
+                     /db_xref="GeneID:26129777"
+     gene            10249..10595
+                     /gene="ND3"
+                     /locus_tag="ASQ79_gp06"
+                     /db_xref="GeneID:26129801"
+     CDS             10249..10595
+                     /gene="ND3"
+                     /locus_tag="ASQ79_gp06"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:10594..10595,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 3"
+                     /protein_id="YP_009178405.1"
+                     /db_xref="GI:948298919"
+                     /db_xref="GeneID:26129801"
+                     /translation="MNVMLALLTNTLLSTLLVLIAFWLPQLNIYAEKASPYECGFDPM
+                     GSARLPFSMKFFLVAITFLLFDLEIALLLPLPWASQTDKLPTMLTMALLLISLLAVSL
+                     AYEWTQKGLEWTE"
+     gene            10596..10664
+                     /locus_tag="ASQ79_gt16"
+                     /db_xref="GeneID:26129778"
+     tRNA            10596..10664
+                     /locus_tag="ASQ79_gt16"
+                     /product="tRNA-Arg"
+                     /db_xref="GeneID:26129778"
+     gene            10665..10961
+                     /gene="ND4L"
+                     /locus_tag="ASQ79_gp05"
+                     /db_xref="GeneID:26129802"
+     CDS             10665..10961
+                     /gene="ND4L"
+                     /locus_tag="ASQ79_gp05"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 4L"
+                     /protein_id="YP_009178406.1"
+                     /db_xref="GI:948298920"
+                     /db_xref="GeneID:26129802"
+                     /translation="MSMVYINIFLAFTLSLMGLLMYRSHLMSSLLCLEGMMLSLFIMM
+                     TVAILNNHFTLASMTPIILLVFAACEAALGLSLLVMVSNTYGTDYVQNLNLLQC"
+     gene            10955..12332
+                     /gene="ND4"
+                     /locus_tag="ASQ79_gp04"
+                     /db_xref="GeneID:26129779"
+     CDS             10955..12332
+                     /gene="ND4"
+                     /locus_tag="ASQ79_gp04"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:12332,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 4"
+                     /protein_id="YP_009178407.1"
+                     /db_xref="GI:948298921"
+                     /db_xref="GeneID:26129779"
+                     /translation="MLKIIIPTAMLMPMTWLSKPNMIWINSTTHGLLISFISLSYLNQ
+                     PGDNSLNFSLLFFSDSLSAPLLVLTTWLLPLMLMASQSHLSKESPSRKKLYITMLTLL
+                     QLLLIMTFTATELIMFYILFEATLIPTLIIITRWGNQTERLNAGLYFLFYTLVGSLPL
+                     LVALLYIQNTTGTLNFLIIQYWAKPISTTWSNIFLWLACMMAFMVKMPLYGLHLWLPK
+                     AHVEAPIAGSMVLAAVLLKLGGYGMMRITVLLNPATNQMAYPFMMLSLWGMVMTSSIC
+                     LRQTDLKSLIAYSSVSHMALVIVAVLIQTPWSYMGATALMIAHGLTSSMLFCLANSNY
+                     ERVHSRTMILARGLQSILPLMAAWWLLASLANLALPPTINLIGELFVVMASFSWSNMT
+                     IILMGTNIIITALYSLYMLIMTQRGKYTHHIKNINPSFTRENALMTLHLLPLLLLSLN
+                     PKIVLGPIY"
+     gene            12333..12401
+                     /locus_tag="ASQ79_gt17"
+                     /db_xref="GeneID:26129780"
+     tRNA            12333..12401
+                     /locus_tag="ASQ79_gt17"
+                     /product="tRNA-His"
+                     /db_xref="GeneID:26129780"
+     gene            12402..12460
+                     /locus_tag="ASQ79_gt18"
+                     /db_xref="GeneID:26129803"
+     tRNA            12402..12460
+                     /locus_tag="ASQ79_gt18"
+                     /product="tRNA-Ser"
+                     /db_xref="GeneID:26129803"
+     gene            12461..12530
+                     /locus_tag="ASQ79_gt19"
+                     /db_xref="GeneID:26129804"
+     tRNA            12461..12530
+                     /locus_tag="ASQ79_gt19"
+                     /product="tRNA-Leu"
+                     /db_xref="GeneID:26129804"
+     gene            12531..14351
+                     /gene="ND5"
+                     /locus_tag="ASQ79_gp03"
+                     /db_xref="GeneID:26129805"
+     CDS             12531..14351
+                     /gene="ND5"
+                     /locus_tag="ASQ79_gp03"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 5"
+                     /protein_id="YP_009178408.1"
+                     /db_xref="GI:948298922"
+                     /db_xref="GeneID:26129805"
+                     /translation="MNLFTPFSLTAMFILLLPIVMSNTQLYKNSLYPYYVKTTISYAF
+                     TISMIPTIMFISSGQEAVISNWHWLSIQTLKLSLSFKMDYFSTIFIPVALFVTWSIME
+                     FSMWYMHSDPNINRFFKYLLMFLITMMILVTANNLFQLFIGWEGVGIMSFLLIGWWYG
+                     RADANTAALQAILYNRIGDVGFIMAMAWFLTNSNAWDFQQIFITQHENLNIPLLGLLL
+                     AATGKSAQFGLHPWLPSAMEGPTPVSALLHSSTMVVAGVFLLIRFYPLMEQNKTMQTL
+                     TLCLGAITTLFTAICALTQNDIKKIIAFSTSSQLGLMIVTIGINQPYLAFLHICTHAF
+                     FKAMLFMCSGSIIHSLNDEQDIRKMGGLYKPMPFTTTSLIIGSLALTGVPFLTGFYSK
+                     DLIIETANTSYTNAWALLITLIATSLTAAYSTRIMFFVLLGQPRFNTLNLINENNTHL
+                     INSIKRLLIGSIFAGYLISYNIPPTTIPQMTMPHYLKLTALAVTIAGFILALELNLAA
+                     KNLKFMYPSNLFKFSNLLGYFPIVMHRLPSKMSLTMSQKSASMLLDMIWLENVLPKSI
+                     SFFQMKMSTAVSNQKGLVKLYFLSFMVTLALSLLLLNFHE"
+     gene            complement(14335..14862)
+                     /gene="ND6"
+                     /locus_tag="ASQ79_gp02"
+                     /db_xref="GeneID:26129781"
+     CDS             complement(14335..14862)
+                     /gene="ND6"
+                     /locus_tag="ASQ79_gp02"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 6"
+                     /protein_id="YP_009178409.1"
+                     /db_xref="GI:948298923"
+                     /db_xref="GeneID:26129781"
+                     /translation="MMTYIVFILSTIFVVSFVSFSSKPSPIYGGFGLIVAGGVGCGIV
+                     LNFGGSFLGLMVFLIYLGGMLVVFGYTTAMATEPYPEAWTSNKAVLGMFITGVLAELL
+                     TACYILKEDEVEVVFKFNGAGDWVIYDTGDSGFFSEEAMGIAALYSYGTWLVVVTGWS
+                     LLIGVLVIMEVTRGN"
+     gene            complement(14863..14931)
+                     /locus_tag="ASQ79_gt20"
+                     /db_xref="GeneID:26129782"
+     tRNA            complement(14863..14931)
+                     /locus_tag="ASQ79_gt20"
+                     /product="tRNA-Glu"
+                     /db_xref="GeneID:26129782"
+     gene            14935..16074
+                     /gene="CYTB"
+                     /locus_tag="ASQ79_gp01"
+                     /db_xref="GeneID:26129806"
+     CDS             14935..16074
+                     /gene="CYTB"
+                     /locus_tag="ASQ79_gp01"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="YP_009178410.1"
+                     /db_xref="GI:948298924"
+                     /db_xref="GeneID:26129806"
+                     /translation="MTNIRKSHPLIKIINHSFIDLPAPSNISAWWNFGSLLGVCLILQ
+                     ILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYMHANGASMFFICLYMHVGRGM
+                     YYGSYTFLETWNIGIVLLFAVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTEL
+                     VEWIWGGFSVDKATLTRFFAFHFILPFIISALAAVHLLFLHETGSNNPSGITSDSDKI
+                     PFHPYYTIKDILGLLVLILTLMLLVLFSPDLLGDPDNYIPANPLNTPPHIKPEWYFLF
+                     AYAILRSIPNKLGGVLALVLSILVLAIIPILHTSKQRGMMFRPLSQCLFWLLVANLLT
+                     LTWIGGQPVEHPFITIGQLASILYFSILLILMPISGIIENRLLKW"
+     gene            16075..16144
+                     /locus_tag="ASQ79_gt21"
+                     /db_xref="GeneID:26129783"
+     tRNA            16075..16144
+                     /locus_tag="ASQ79_gt21"
+                     /product="tRNA-Thr"
+                     /db_xref="GeneID:26129783"
+     gene            complement(16145..16211)
+                     /locus_tag="ASQ79_gt22"
+                     /db_xref="GeneID:26129807"
+     tRNA            complement(16145..16211)
+                     /locus_tag="ASQ79_gt22"
+                     /product="tRNA-Pro"
+                     /db_xref="GeneID:26129807"
+ORIGIN      
+        1 cgatggacta atgactaatc agcccatgat cacacataac tgtggtgtca tgcatttggt
+       61 atcttttaat tttagggggt cgaccttgct atgattcagc tatgacctaa aggtcctgac
+      121 tcagtcaaat atattgtagc tgggcttatt ctctatgcgg ggcctccaca cgtacaacag
+      181 tcaaggtgct attcagtcaa tggtcacagg acatatactt aaattcctat tgttccacag
+      241 gacacggcat gcgcgcaccc acgtatacgc gtacacgtat acacgtatac acgtacacac
+      301 gtatacacgt atacacgtat acacgtatac acgtatacac gtatacacgt atacacgtat
+      361 acacgtatac acgtatagta cacacgtaca cacgtacaca cgtacacacg tacacacgta
+      421 cacacgtaca cacgtacaca cgtacacacg tacacacgta cacacgcaaa cactttgatt
+      481 tagtaaataa ctagcttaat caaacccccc ttaccccccg ttaaccttat ttataacaat
+      541 acgtgcctat ttatgtcttg ccaaacccca aaaacaagac tagaccgtac ctaaacataa
+      601 ggcctaagaa aacgcttata agcttaccaa tcccctatca ttactagcta ttaatactaa
+      661 atcatatctc tgttcgcagt tatctataga tacgccaacc gatctctaat tcgtccctat
+      721 cgaacaacat ttcacatgcc caaattaaac cctcacccca gttaatgtag cttaaacaca
+      781 taaagcaagg cactgaaaat gcctggatga gtcgccagac tccataaaca taaaggtttg
+      841 gtcctggcct ttccattagt tattaataag attacacatg caagcctccg catcccggtg
+      901 aagatgccct ctaagtcacc cagtgaccta aaggagctgg tatcaagcac acaaccacag
+      961 tagctcacaa caccttgctc agccacaccc ccacgggata cagcagtgat aagaattaag
+     1021 ccatgaatga aagttcgact aagctatatt aaataagggt tggtaaattt cgtgccagcc
+     1081 accgcggtca tacgattaac ccaaactaat agacccacgg cgtaaagcgt gttacagaga
+     1141 aaaaataagc taaagttaaa ttttaactag gccgtagaaa gctacagtta acataaaaat
+     1201 acagcacgaa agtaacttta acatctccga ctacacgaca gctaagaccc aaactgggat
+     1261 tagatacccc actatgctta gccctaaact tagatagtta ccctaaacaa aactatccgc
+     1321 cagagaacta ctagcaacag cttaaaactc aaaggacttg gcggtgcttt acatccctct
+     1381 agaggagcct gttctataat cgataaaccc cgatacacct caccatctct tgctaattca
+     1441 gcctatatac cgccatcttc agcaaaccct aaaaaggaag aaaagtaagc acaagtatct
+     1501 taacataaaa aagttaggtc aaggtgtagc ccatgagatg ggaagcaatg ggctacattt
+     1561 tctaaaatta gaatacccac gaagatcctt atgaaactaa gtattaaagg aggatttagt
+     1621 agtaaatttg agagtagaga gctcaattga atcgggccat gaagcacgca cacaccgccc
+     1681 gtcaccctcc tcaagtgata gttcctaaaa aaacctattt aaatcaccac atccacaaga
+     1741 ggagacaagt cgtaacaagg taagcatact ggaaagtgtg cttggataac aagatgtagc
+     1801 ttaaacaaag catctggctt acacccagaa gatttcatat taaactgacc atcttgagcc
+     1861 aaagctagcc caaacatcta taaacacaac taacactaga atataaaaca aaacattcag
+     1921 ttaccttaaa aagtatagga gatagaaatt taacttggcg ctatagagaa agtaccgcaa
+     1981 gggaaagatg aaagataaaa ttaaaagcac cacacagcaa agattacccc ttgtaccttt
+     2041 tgcataatga gttagctaga acaacctaac aaagagaact tcagctaggt cccccgaaac
+     2101 cagacgagct acccatgaac aatctattac aggatgaact cgtctatgtt gcaaaatagt
+     2161 gagaagattt gtgggtagag gtgaaaagcc taacgagcct ggtgatagct ggttacccag
+     2221 aacagaattt tagttcaact ttaaacttac ctcaaaaacc ccaaaattcc aatgtaagtt
+     2281 taaaatataa tctaaaaagg tacagctttt tagaatcagg atacagcctt tattagagag
+     2341 taagcataaa cacaaaccat agttggccta aaagcagcca tcaattaaga aagcgttcaa
+     2401 gctcaacaat caaaacatct taatgtcaaa aaatgcaacc aactcctaat ctaaaactgg
+     2461 gtcaatctat ttaataatag aagcaataat gctaatatga gtaacaagaa atatttctcc
+     2521 ctgcataagc ttatatcaga acggataacc actgatagtt aacaacaaga tatatataat
+     2581 ctaaccataa acaaaatatc aaactaattg ttaacccaac acaggtatgc aaatttaagg
+     2641 gaaagattaa aagaagtaaa aggaactcgg caaacacaag ccccgcctgt ttaccaaaaa
+     2701 catcacctct agcatttcca gtattagagg cactgcctgc ccagtgacac tagttaaacg
+     2761 gccgcggtat cctgaccgtg caaaggtagc ataatcattt gttccctaaa tagggacttg
+     2821 tatgaatggc cacacgaggg ctttactgtc tcttacttcc aatccgtgaa attgaccttc
+     2881 ccgtgaagag gcgggaatat aacaataaga cgagaagacc ctatggagct ttaattaacc
+     2941 gacccaaaga gaccctacca attaaccaac aggaacaaca aacctctatt atgggccggc
+     3001 aatttaggtt ggggtgacct cggagaacaa aacaacctcc gagtgattta aatctagact
+     3061 aaccagtcaa aagtattaca tcacttattg atccaaataa tcttgatcaa cggaacaagt
+     3121 taccctaggg ataacagcgc aatcctattt tagagtccat atcgacaata gggcttacga
+     3181 cctcgatgtt ggatcaggac atcccgatgg tgcagcagct atcaaaggtt cgtttgttca
+     3241 acgattaaag tcctacgtga tctgagttca gaccggagta atccaggtcg gtttctatct
+     3301 attcaataac ttctcccagt acgaaaggac aagagaagta aggcccactt caccaaagcg
+     3361 cctttaacct aatagatgat ataatcttaa tctagacagt ttatccaatt acactacccg
+     3421 agagctcggg tttgttaggg tggcagagcc cggtaactgc ataaaactta agcttttatt
+     3481 atcagaggtt caattcctct ccttaacaac atgttcatag ttaatgtgct ctcactaatt
+     3541 attcccattc tcctcgctgt agccttcctg accctagttg aacgaaaagt actaggctat
+     3601 atgcaactcc gcaaaggacc aaacatcgta ggaccatacg gcctacttca acctatcgca
+     3661 gacgccgtaa aacttttcac caaagaacct ctccgacccc ttacatcttc catattaata
+     3721 tttatcatag caccaatcct agccctcaca ctagccctaa ctatatgaat cccactaccc
+     3781 ataccatacc cgctcattaa cataaaccta ggagtattat ttatactggc tatatcaagc
+     3841 ctggccgtct attccatcct atgatcagga tgggcctcaa attcaaaata cgccctaatc
+     3901 ggagccctac gagccgtcgc ccaaacaatc tcatatgaag tcacactagc cattattctc
+     3961 ctatcagtac tactaataaa tggatccttc acactagcca tgctaattat tactcaagaa
+     4021 tatatatgat taatcatccc cgcatgacct ctagctataa tgtgatttat ctcaacccta
+     4081 gcagagacca atcgggcccc atttgacctc acagaagggg aatcagaact agtctccgga
+     4141 ttcaacgtag aatatgcagc aggccctttc gccctatttt tcctagcaga atatgctaac
+     4201 atcatcataa taaatatcct cacaacaatc ctattcttcg gagcattcca cagcccttat
+     4261 ataccagaac tatataccat caactttaca gtaaagactt tgctcttgac aattactttt
+     4321 ctatggatcc gagcatccta cccacgattc cgatatgacc aactaataca tctcttatga
+     4381 aaaaatttcc taccccttac cctagcccta tgcatatggc acgtatcact acctatcatc
+     4441 acagcaagca tcccacccca aacataagaa atatgtctga taaaagagtt actttgatag
+     4501 agtaaaacat aggggtttaa atcctcttat ttctagaaca ataggaatcg aacctaatcc
+     4561 taagaatcca aaaatcttcg tgctaccatt attacaccat attctaaagt aaggtcagct
+     4621 aaataagcta tcgggcccat accccgaaaa tgttggttta tacccttccc atactaatca
+     4681 aaccccctat ttttattatc attatattaa ccgttatatc agggactata attgtagtaa
+     4741 caacctccca ctgactcata gtctgaattg gatttgaaat aaacctacta gccatcatcc
+     4801 ccatccttat aaaaaaatac aacccacgag ctatagaagc agccacaaaa tacttcttaa
+     4861 cacaagcaac cgcctccata atcctaataa taggaatcat catcaaccta ctgcactcag
+     4921 gacaatgaac tatatcaaaa gacctaaacc ccatagcatc aatcataata acagccgccc
+     4981 tagcaataaa actaggacta gccccattcc acttctgagt acccgaagtt acacaaggag
+     5041 tttctatatc atcaggtcta atcctactga catgacaaaa aatcgcacca ctatcaatcc
+     5101 tctaccaaat atcatccact atcaacccta acctaatcct aacaatatcc attctatcag
+     5161 tcataatcgg aggctgagga ggcctcaacc agacacaact acgaaaaatc atagcgtatt
+     5221 cttcaatcgc ccatataggc tgaataacag ctatcataat atacagcccc acaataataa
+     5281 tcttaaacct aattatctac attattataa cactaaccac ctttatacta tttatacata
+     5341 actccaccac aacaacatca tccctgtcac aaacatgaaa taaaacccct ttaatcacct
+     5401 cactcatcct agtgttaata atatccttag gaggcctccc cccactctct ggattcattc
+     5461 caaaatgaat aatcatccaa gaactgacta aaaatgaaat aatcataata ccaacactac
+     5521 tagccataac agcactactt aacctatact tctacatacg actaacatac actaccgcac
+     5581 taaccatatt cccctcaaac aacagcataa aaataaaatg acgatttgaa tatacaaaaa
+     5641 aaataacctt cctgccccct ctaatcgtaa tatcaacaat attacttcca cttacgccaa
+     5701 tactatccat cctggattag aagtttaggt taaactagac caagagcctt caaagctcta
+     5761 agcaagtccc acagacttaa cttctgcaca tcttaaacca ccctaaggac tgcaagaatc
+     5821 tatcttacat caattgattg caaatcaaac actttaatta agctaagtcc tcactagatt
+     5881 ggtgggctcc aaccccacga gattttagtt aacagctaaa taccctaatc aactggcttc
+     5941 aatccacttc tcccgccgtc tagaaaaaaa aggcgggaga agccccggca gcgccaagct
+     6001 gcttctttga atttgcaatt caacatgaca ttcaccgcag gacttggtaa aaagagggct
+     6061 caaacctctg tctttagatt tacagtctaa tgcttactcg gccattttac ctatgttcat
+     6121 aaaccgttga ctattttcaa ctaatcataa agatatcggg actctttacc tcttattcgg
+     6181 tgcctgagct ggcatggtgg ggactgccct tagtctccta atccgggccg aactaggcca
+     6241 acctggcaca ctactagggg acgatcagat ctataatgtg atcgtcactg ctcatgcttt
+     6301 tgtaatgatc ttttttatgg taatgcctat tataatcgga gggttcggaa actgattggt
+     6361 tccattaata atcggagccc ctgacatagc gtttccccga ataaacaaca tgagcttctg
+     6421 actccttccc ccgtcctttc ttctcttact cgcctcatct atggtagaag caggggcagg
+     6481 aaccggatga acagtatacc cgcccctagc cggtaacctg gctcatgcgg gagcatccgt
+     6541 agacctaact attttctcac tacacctggc aggtgtctcc tcaatcttgg gtgccattaa
+     6601 tttcattact actattatta atataaaacc ccctgccata tctcaatatc aaacgcccct
+     6661 atttgtttga tcggtcttaa ttactgccgt cctattactt ctatcacttc cagttttagc
+     6721 agcggggatc actatgttac taacagatcg aaacctaaac actacattct ttgaccccgc
+     6781 tgggggagga gatcctattt tataccaaca cttattctga ttctttggcc acccagaagt
+     6841 ttacatttta attctacccg gctttggaat aatctcacat atcgttacct attattcagg
+     6901 taaaaaagaa ccctttggct acatgggaat agtttgagcc atgatatcaa tcggttttct
+     6961 gggctttatc gtatgagccc atcacatgtt tactgtagga atggatgtgg acacacgagc
+     7021 atactttaca tcagccacta taattatcgc cattcctact ggggtaaaag tatttagttg
+     7081 actggctact cttcacggag gtaatattaa atggtcccca gctatattat gagccttagg
+     7141 ctttattttc ctatttaccg ttgggggcct aacgggaatt gtactagcga actcttcact
+     7201 agatattgtt cttcacgata catattacgt agtggcccac tttcactatg tcttgtcaat
+     7261 aggagcagtg ttcgctatta taggaggctt cgtccactga ttccccctat tctcaggata
+     7321 taccctcgac aacacttgag caaagattca ctttacaatt atgttcgtag gagtcaatat
+     7381 gacgttcttc ccccagcatt tcctaggcct atctggaatg ccgcgacgtt attccgatta
+     7441 cccagatgca tatacaactt gaaatacaat ctcttcaatg ggctctttca tctcattaac
+     7501 ggcagttata ttaatagttt tcatagtatg agaagctttc gcatccaagc gagaagtggc
+     7561 catagtagaa ctaaccacaa ctaaccttga atgattacat ggatgtcccc ctccatatca
+     7621 cacatttgaa gagccaactt atgtattatt aaaataagaa aggaaggaat cgaaccctct
+     7681 tcgactggtt tcaagccaat gccataacca ttatgtcttt ctcaattaag aagtattagt
+     7741 aaaacgatta cataactttg tcgaagttaa attataggct taaatcctat atgcttccat
+     7801 ggcgtaccct ttccaactag gttttcaaga tgcaacatct cccattatag aggaactcct
+     7861 acatttccac gatcacacat taataattgt attcctaatc agctccttag tcctttacat
+     7921 tatctcgctg atactaacaa ccaaactcac gcacacaagt acaatggatg ctcaagaagt
+     7981 agaaaccatc tgaactatct tacctgctat tatcctaatt cttatcgccc tgccctcctt
+     8041 acgaatcctc tatataatgg atgaaatcaa caacccctcc ctcacagtaa aaaccatggg
+     8101 acatcagtga tactgaagct atgagtacac tgattacgaa gacctgaatt ttgactctta
+     8161 tatgattcct acccaagagc taaaacctgg agaacttcgg ctattagaag ttgacaaccg
+     8221 agtagtttta ccaatagaaa tgactattcg catactaatt tcatcagaag atgtattaca
+     8281 ctcatgagcc gtcccatccc tgggcctaaa aaccgatgct attccaggcc gactaaacca
+     8341 aacaactctg ataggcacac gacccggttt atactatggc cagtgctcag aaatctgtgg
+     8401 ctcaaaccac agcttcatgc ccattgttct tgaattagtc ccactaacat actttgaaaa
+     8461 atgatctgta tctatactgt aaattcatta agaagctaag taagcattaa ccttttaagt
+     8521 taaagactgg gagctcaaat ctccccttaa tgacatgcca caactagata catccacctg
+     8581 atttattact atcatatcaa taattataac actatttatt gtgttccaac taaaaatctc
+     8641 aaaatactta tacccatcaa gcccagaacc taagtccata accgcactaa aacagcttaa
+     8701 tccctgagaa aaaaaatgaa cgaaaatcta ttcgcctctt tcactacccc aacaataata
+     8761 ggactgccta ttgttatctt aatcattatg tttccaagta ttttatttcc ttcacccagc
+     8821 cgactaatta acaaccgcct aatttcgcta caacaatgat tagtgcaact aacatcaaaa
+     8881 caaatactga ctatccacaa ccataaagga caaacctgag ccctaatact aatatcccta
+     8941 attctattta ttggatcaac aaatctatta ggcctattgc cccactcatt tactccaact
+     9001 acccagttat caataaactt aggaatagct attccattat gagccggcac cgtaattacc
+     9061 gggtttcgcc ataaaactaa agcatccctg gcccactttc taccacaagg aacacctgtt
+     9121 cccctgatcc ccatgcttgt aatcattgag actatcagtc tctttattca gcctatagcc
+     9181 ctagctgtac gacttacagc caacatcact gcaggccact tactaataca tctaattgga
+     9241 ggagccgccc tagccctaat aaacattagc acctccattg ctttaattac ctttattatt
+     9301 ctcattttac taacagtcct tgaatttgct gtagccctaa tccaagctta tgtctttacc
+     9361 ctactagtaa gcctgtattt acatgataac acctaatgac ccaccaaacc catgcatatc
+     9421 acatagttaa ccctagccca tgaccactta caggggccct ttcagcccta ttaataacct
+     9481 caggcctggc tatatgattc cactataact caacactact gctaacccta ggaataacta
+     9541 ctaatctatt aactatatat caatgatgac gagatattat ccgagaaagc acattccaag
+     9601 gccatcatac acccattgtt caaaaaggcc ttcgatacgg aataatcctc tttattatct
+     9661 cagaagtatt ttttttcgca ggcttcttct gggccttcta ccactcaagc ctagccccaa
+     9721 cccctgagct aggaggatgc tgaccgccaa caggcattat ccccctaaat cccctggaag
+     9781 tcccactgct taatacttcc gtgctcctag cctccggagt atcaatcacc tgagctcacc
+     9841 acagtctaat ggagggaaat cgaaaacaca tgctccaagc actatttatt acaatctcct
+     9901 tgggagttta cttcacactc ctccaagcct ccgaatatta tgaaacatcc tttacgatct
+     9961 cggacggagt atatggatct accttcttta tagctacagg attccacgga ctacatgtaa
+    10021 ttattggctc cacctttcta attgtatgct tcttacgcca actaaaatat cactttacat
+    10081 caaatcacca tttcggattt gaagccgctg cttgatattg acatttcgta gacgtagttt
+    10141 gactattctt atacgtttct atctattgat gaggatccta ttcctttagt attaacaagt
+    10201 acagttgact tccaatcaac cagtttcggt acaacccgaa aaggaataat aaacgtaata
+    10261 ctcgccttac tcaccaacac actcctgtct acactgcttg tactcatcgc attttgatta
+    10321 ccccaactaa atatctatgc agaaaaagca agcccctatg aatgcggatt tgatcctata
+    10381 gggtctgccc gcttaccctt ctccataaaa ttcttcttag tggccatcac atttctgctg
+    10441 ttcgacctag aaattgcact actactcccc cttccctgag cctcacaaac agacaagcta
+    10501 ccaaccatac ttaccatggc cctcctacta atctcattac tagccgtaag cctagcctat
+    10561 gaatgaaccc aaaaaggact agagtgaact gaatatgata attagtttaa accaaaacaa
+    10621 atgatttcga ctcattagat tatagctcac cctataatta tcaaatgtcc atagtctaca
+    10681 ttaacatctt cttggccttt accttgtcgc tcataggact attaatatat cgatcccacc
+    10741 taatatcttc tctcctatgt ctagaaggta taatattgtc cttgttcatt ataataaccg
+    10801 tagccatcct aaataatcat ttcacactag ctagcatgac ccctatcatc ctattagtat
+    10861 tcgcagcttg tgaagcagca ctaggcttat ctctactagt aatagtatca aatacatacg
+    10921 gtaccgacta cgtacaaaac ctaaacctcc tacaatgcta aaaattatta tccccactgc
+    10981 tatacttata ccaataacat gactatcaaa acccaacata atctgaatta actcaacaac
+    11041 ccacggccta ctaatcagtt ttattagtct ctcctatcta aaccaaccag gcgacaatag
+    11101 tctaaatttc tcactgttat tcttctcaga ctcactctcc gcacccttac tagtacttac
+    11161 aacatgactt ctaccactaa tactcatagc cagccaatca cacctatcaa aagaaagccc
+    11221 aagtcgaaaa aaactatata ttactatact caccctcctg cagcttctct tgattataac
+    11281 attcaccgcc acagaactaa ttatattcta catcctattt gaagccacat taatccccac
+    11341 tttaatcatc attacccgat gaggcaacca aacagaacga ctaaacgccg gcctatactt
+    11401 tttattttat accctagtag gctcactacc tcttttagtc gcactactat atatccagaa
+    11461 tacaacagga accttaaatt tcctaatcat ccaatattga gccaaaccta tctcaactac
+    11521 ctggtccaat attttcctct gactagcgtg catgatagca tttatagtaa aaatacctct
+    11581 atatggactc cacctatgac tgccaaaagc acatgttgaa gcccccattg ctggctcaat
+    11641 agtactcgcc gccgtattat taaaactagg gggatatgga ataatacgca ttacagttct
+    11701 actcaacccc gcaacaaacc aaatggcata tccctttatg atattatcct tatgaggaat
+    11761 agttataaca agctccatct gcttacgtca gacagaccta aaatccttaa tcgcatattc
+    11821 atccgtaagt catatagccc tagtaattgt agcagtactg atccaaacac cctgaagcta
+    11881 tataggagct acggccctaa taattgccca tggactaact tcctctatat tattctgtct
+    11941 tgcaaactca aactatgaac gagtacatag ccgaacaata attctagccc gaggcctaca
+    12001 atctatcctc cccttaatag ctgcctgatg attactagct agcctcgcaa acctagccct
+    12061 accccccaca attaacctga tcggagaact attcgtagta atagcctcct tttcatgatc
+    12121 aaacataacc attatcctaa taggtacaaa catcattatc acagccctat attccctcta
+    12181 catgcttatt ataacccaac gaggtaaata tacacaccac attaaaaata tcaacccatc
+    12241 atttacacga gaaaatgccc taataaccct ccatttactc ccccttcttc ttctatcact
+    12301 taaccctaaa attgtactag gtcccattta ctgtaaatat agtttaacaa aaacattaga
+    12361 ttgtgagtct aacaatggaa gtgcaaacct tcttatttac cgaaaaagaa tgcaagaact
+    12421 gctaattcat gcctccacgc ataaaaacgt ggctttttca acttttatag gatagaagta
+    12481 atccattggt cttaggaacc aaaaaattgg tgcaactcca aataaaagta ataaatctat
+    12541 tcactccttt ttcactaact gcaatattta ttctactcct gcctatcgtt atatccaata
+    12601 cccagctgta caaaaacagc ctatatccct actatgtaaa aactacaatc tcctacgcct
+    12661 ttaccatcag cataatccca actatcatat ttatttcctc aggacaagaa gcagttatct
+    12721 caaactggca ctgactatca atccaaaccc tcaaactatc actgagcttt aaaatagact
+    12781 atttctcaac catcttcatc cccgtagcac ttttcgtcac gtgatccatc atggagttct
+    12841 caatatgata tatacactca gacccaaaca tcaatcgatt cttcaaatac ctcctcatat
+    12901 tcttaatcac catgataatt ctagtcaccg ccaacaatct atttcaacta ttcatcggct
+    12961 gagagggggt aggaattata tcttttttac ttatcggatg atgatatggc cgagcagacg
+    13021 caaacactgc cgctctacaa gcaattctct acaaccgcat cggagacgta ggctttatca
+    13081 tagccatagc atgatttctt accaactcaa acgcatgaga cttccaacaa atcttcatca
+    13141 cccaacatga gaacctaaat atcccattac tagggcttct attagcagcc acaggcaaat
+    13201 ccgcccaatt tggtctacat ccatgacttc catcagccat agaaggccca actcccgtct
+    13261 ccgccctact ccactcaagt acaatagtcg tagcaggagt cttcctactt attcgcttct
+    13321 atccactcat agaacaaaac aaaaccatac aaacccttac cctgtgttta ggggctatca
+    13381 caaccctatt cacagctatt tgtgctctca cacaaaatga tatcaaaaaa atcattgcct
+    13441 tttcaacctc aagccaactg ggcctaataa ttgtaactat tggcattaat caaccctacc
+    13501 tcgcattcct acacatttgc acacacgcat tcttcaaggc catgctattc atatgttcag
+    13561 gatcaattat ccatagtctg aacgacgaac aagacattcg aaaaataggc ggattatata
+    13621 aaccgatacc ctttaccacc acctccctaa ttatcggaag cctcgcacta acaggtgtac
+    13681 ctttcctaac aggtttttat tccaaagacc taatcatcga gacagccaac acgtcgtata
+    13741 ccaacgcctg agccctacta attactctca ttgccacatc ccttacagct gcctacagta
+    13801 ctcgaattat attctttgtg ctactagggc aaccacgatt caacaccttg aacctaatca
+    13861 atgaaaataa tacccacctc atcaattcca ttaaacgtct cttaatcgga agtatctttg
+    13921 caggatatct aatttcttac aacatccccc caacaaccat cccacaaatg actatacccc
+    13981 actatctaaa actaactgcc cttgccgtga ctatcgcagg ctttatccta gcgttagaac
+    14041 ttaatctcgc ggctaaaaac ttaaaattta tatacccttc aaatctcttt aagttttcta
+    14101 acctcttagg gtactttcca attgtaatac accgtctccc atcaaaaatg agcctaacta
+    14161 tgagccaaaa gtccgcatcg atactactag acataatctg actagaaaat gtattaccaa
+    14221 aatccatctc cttcttccaa ataaaaatgt caactgccgt atctaatcag aaaggactag
+    14281 tcaaactcta ctttttatct ttcatagtca ccctagccct tagtctactc ttacttaatt
+    14341 tccacgagta acctccataa tcaccaacac accaataagc aaagaccaac cagtgacaac
+    14401 cactaaccaa gttccataac tatacaacgc cgcaattccc atggcctctt cactaaaaaa
+    14461 ccctgaatca cccgtatcat aaatcactca atcacccgca ccattaaact taaatacaac
+    14521 ctctacctca tcttctttta aaatataaca agcagttaat aactctgcta acacccccgt
+    14581 aataaacatt cctagtacag ccttattaga cgtccacgcc tcaggataag gctcagtagc
+    14641 catagccgta gtatacccaa atactacaag catacccccc aaataaatta agaaaaccat
+    14701 tagacctaaa aatgatcccc caaaattcaa cacaatacca caaccaacac caccagccac
+    14761 aattaaacca aacccaccat aaattggaga aggctttgaa gaaaaactca caaagctcac
+    14821 tacaaagatt gtacttaaaa taaatacaat gtatgttatc attattctca catggaattt
+    14881 aaccatgacc aatgacatga aaaaccatcg ttgtatttca actacaagaa cttaatgacc
+    14941 aacattcgaa aatcacatcc ccttattaaa attattaacc actcattcat cgatctacct
+    15001 gccccatcca acatctcagc atgatgaaac tttggctctc tcttaggagt ctgcctaatc
+    15061 ctgcaaatcc tcaccggcct atttctagcc atacattata catcagacac aatgaccgcc
+    15121 ttctcatcag ttacacacat ttgtcgcgac gttaactacg gctgaatcat ccgatacata
+    15181 cacgccaacg gagcttccat attcttcatc tgcttatata tacatgtagg acgaggaata
+    15241 tattacggct cttacacatt cctagagaca tggaatattg gaatcgtact actatttgcg
+    15301 gtcatagcca cagccttcat aggatacgtc ctaccatgag gtcaaatgtc tttctgaggg
+    15361 gcaaccgtaa tcaccaacct cctgtcagca attccataca tcgggactga actagtagaa
+    15421 tgaatctggg gaggcttctc agtagacaaa gccaccctaa cacgattctt tgccttccac
+    15481 ttcattctcc cgttcattat ctcagcctta gcagcagtac atctcttgtt ccttcacgaa
+    15541 acaggatcca acaacccctc aggaattaca tctgattcag acaagatccc atttcaccca
+    15601 tactatacaa tcaaagacat cctaggtctt ctagttctaa tcttaacact catactactc
+    15661 gttctatttt caccagacct gctaggagac ccagataact acattccagc caacccttta
+    15721 aacacccctc cccatatcaa acctgaatga tacttcttat tcgcatatgc aattctccga
+    15781 tccatcccca acaaactagg gggagtccta gccctggtac tttccattct agtcctggca
+    15841 atcattccaa tcctacatac ctccaaacaa cgagggataa tgttccgacc actaagccaa
+    15901 tgcctattct gacttctagt agcaaatctc ctaactctga catgaatcgg cggtcaaccc
+    15961 gtagaacacc cctttatcac catcggccaa ctagcttcca tcctatactt ctcaatcctc
+    16021 ctgatcctaa tacccatctc aggcattatt gaaaaccgtc tacttaagtg aagagtcttt
+    16081 gtagtatata aaatactttg gtcttgtaaa ccaaaaaagg agaacatatg ccctccctaa
+    16141 gacttcaagg aagaagcaac agccccacca tcagcaccca aagctgaaat tctttcttaa
+    16201 actattcctt gccaacacca aaaagtaacc ccataatttc cataattcat atattgcata
+    16261 tacccatact gtgcttgccc agtatgtcct tattttccac aaacaaaacc aagtaaaaac
+    16321 cccctaatac cacaattcaa agcacataat gtaaaattat cctattaacc cccaacccgc
+    16381 ccgcatacat aagacatact atgtatatcg tgcattaatc gctagtcccc atgaatatta
+    16441 ggcatgtaca gtagtttata tatattacat aagacatgat agtgcttaat cgtgcattca
+    16501 attcattcca gaacagtcca ttatggacct caactatccg aaagagctta atcacctagc
+    16561 ctcgagaaac cagcaatcct tgctcgaacg tgtacctctt ctcgctccgg gcccatctca
+    16621 acgtgggggt ttctataacg gaactatacc tggcatctgg ttcttacttc agggccatgg
+    16681 aattcttaaa tccaatcctt cagttttctc aaatgggaca tct
+//
